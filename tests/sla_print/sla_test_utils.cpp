@@ -17,7 +17,7 @@ void test_support_model_collision(const std::string          &obj_filename,
     
     // Set head penetration to a small negative value which should ensure that
     // the supports will not touch the model body.
-    supportcfg.head_penetration_mm = -0.2;
+    supportcfg.head_penetration_mm = -0.4;
     
     test_supports(obj_filename, supportcfg, hollowingcfg, drainholes, byproducts);
     
